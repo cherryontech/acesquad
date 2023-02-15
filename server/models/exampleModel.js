@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 const path = require('path');
 const fs = require('fs');
 
-const MONGO_URI = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../secrets.json'))).MONGO_URI;
+// ! need a mongo URI
+const MONGO_URI = ''
 
 mongoose.connect(MONGO_URI, {
   // options for the connect method to parse the URI
