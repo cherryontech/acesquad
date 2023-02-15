@@ -1,4 +1,4 @@
-Link to storycard:
+Link to storycard: 
 Description ofwork done:
 Testing instructions:
 What I learned:
