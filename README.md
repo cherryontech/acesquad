@@ -10,6 +10,7 @@ This README is a work in progress :)
     "format" - run prettier
     "lint" - run eslint
     "lint:fix" - fix all linting
+    "test" - jest testing
 
 
 ##### Ace-Squad Team:
