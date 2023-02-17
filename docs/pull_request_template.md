@@ -1,5 +1,5 @@
 Link to storycard:   
-Description ofwork done:  
+Description of work done:  
 Testing instructions:  
 What I learned:  
 
