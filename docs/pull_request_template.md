@@ -11,3 +11,4 @@ Co-authored-by: Jiachun Xiang <mpa-mxiang@users.noreply.github.com>
 Co-authored-by: Young He <youngrighthere@users.noreply.github.com> 
 Co-authored-by: Delia <Parseluni@users.noreply.github.com> 
 Co-authored-by: Carlisha Wilson <carlishawilson@users.noreply.github.com>
+Co-authored-by: Ezgi Sari <sarielifezgi@users.noreply.github.com>
