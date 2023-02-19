@@ -32,9 +32,12 @@ Designers
 - [Carlisha Wilson](https://github.com/carlishawilson)
 
 Developers
-- [Stephanie Page](https://github.com/vividvoltage) | [LinkedIn]()
+- [Stephanie Page](https://github.com/vividvoltage) | [LinkedIn](https://www.linkedin.com/in/stephanie-page-atx/)
 - [Delia](https://github.com/Parseluni)  | [LinkedIn]()
 - [Jiachun Xiang](https://github.com/mpa-mxiang)  | [LinkedIn]()
+
+Product Manager
+- [Ezgi Sari](https://github.com/sarielifezgi) | [LinkedIn]() 
 
 Thanks to our mentors Allie Q., Novella C., Shaniqua D.
 
