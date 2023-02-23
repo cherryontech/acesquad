@@ -1,14 +1,13 @@
-import React from 'react';
+import React from "react";
 import { createRoot } from "react-dom/client";
-import TextArea from './TextArea';
-import Title from './Title';
+import LinkInput from "./LinkInput";
+import TextArea from "./TextArea";
 
 const App = () => {
   return (
     <>
       <h1>Networking Marketplace</h1>
-      <Title/>
-      <TextArea/>
+      <TextArea />
     </>
   );
 };
