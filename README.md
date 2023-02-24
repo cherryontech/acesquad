@@ -1,6 +1,6 @@
 # acesquad
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e05269b7-6053-41db-8ee8-a16bf2699916/deploy-status)](https://app.netlify.com/sites/fluffy-palmier-02b78e/deploys)
+[![Netlify Status][![Netlify Status](https://api.netlify.com/api/v1/badges/72134163-34fa-429c-a291-1147667195d2/deploy-status)](https://app.netlify.com/sites/velvety-cuchufli-505097/deploys))
 
 ### Built With
 
