@@ -1,5 +1,5 @@
 import { useState } from "react";
-import validator from "validator";
+
 
 // * Here's a good tutorial on forms, when it comes time to add functionality to submit, pick up here on item 4
 // https://dmitripavlutin.com/react-forms-tutorial/
@@ -17,19 +17,7 @@ const TextArea = () => {
       setValues((oldValues) => ({ ...oldValues, [name]: value }));
     };
   };
-  const validate = (value) => {
-    if (validator.isURL(value)) {
-      setErrorMessage("Valid URL");
-    } else {
-      setErrorMessage("Not a valid URL");
-    }
-  };
-  //  const urlOnChange = (e, name) => {
-  //   if (validate(e.target.value)){
-  //     set(name);
-  //   }
-  //  }
-
+ 
   return (
     <>
       <form action="/" className="card">
@@ -56,9 +44,8 @@ const TextArea = () => {
           required
           className="card"
           value={values.linkedInUrl}
-          // onChange={(e) => {validate(e.target.value); set('linkedInUrl')}}
+          onChange={set("linkedInUrl")}
         />
-        <span>{errorMessage}</span>
         <label htmlFor="post">Offer or Request:</label>
         <textarea
           id="post"
