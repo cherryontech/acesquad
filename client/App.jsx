@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
 import { createRoot } from "react-dom/client";
+import TextArea from "./TextArea";
 
 const App = () => {
   return (
     <>
-      <h1>Example React App</h1>
+      <h1>Networking Marketplace</h1>
+      <TextArea />
     </>
   );
 };
