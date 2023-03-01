@@ -15,6 +15,27 @@ Netlify Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/7213416
 
 This README is a work in progress :) 
 
+## PRODUCT OVERVIEW
+### Our Product
+    By providing a supportive community, personalized mentorship, and valuable resources, our platform aims to level the playing field and empower individuals to succeed in their career journey in tech. 
+
+### Target Audience
+It is primarily targeted at women and LGBTQ+ individuals who may face additional barriers to career success due to systemic biases and discrimination. However, the platform is open to anyone who is committed to building a supportive, inclusive community that values diversity and equity.
+
+### Installation and Usage 
+To use it, simply visit the website at xxx and create an account or connect your Linkedin account. Once you're logged in, you can explore the platform, connect with mentors and peers, and access a wide range of career resources.
+
+### Key Features
+- Create a post to make a request or an offer
+- See all requests and offers
+- Filter and categorize posts
+- Respond to a post
+- User profile
+- Notifications
+
+### Technology
+
+
 ##### Scripts:
     "dev" - run vite
     "build" - production build
