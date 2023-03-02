@@ -17,7 +17,7 @@ This README is a work in progress :)
 
 ## PRODUCT OVERVIEW
 ### Our Product
-    By providing a supportive community, personalized mentorship, and valuable resources, our platform aims to level the playing field and empower individuals to succeed in their career journey in tech. 
+By providing a supportive community, personalized mentorship, and valuable resources, our platform aims to level the playing field and empower individuals to succeed in their career journey in tech. 
 
 ### Target Audience
 It is primarily targeted at women and LGBTQ+ individuals who may face additional barriers to career success due to systemic biases and discrimination. However, the platform is open to anyone who is committed to building a supportive, inclusive community that values diversity and equity.
