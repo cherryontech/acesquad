@@ -1,11 +1,9 @@
 import { useState } from "react";
 
-
 // * Here's a good tutorial on forms, when it comes time to add functionality to submit, pick up here on item 4
 // https://dmitripavlutin.com/react-forms-tutorial/
 
 const TextArea = () => {
-  const [errorMessage, setErrorMessage] = useState("");
   const [values, setValues] = useState({
     title: "",
     text: "",
@@ -17,11 +15,11 @@ const TextArea = () => {
       setValues((oldValues) => ({ ...oldValues, [name]: value }));
     };
   };
- 
+
   return (
-    <>
+    <div>
       <form action="/" className="card">
-        <h3>Make a request or offer</h3>
+        <h3 className="form">Make a request or offer</h3>
         <label htmlFor="title">Title:</label>
         <input
           type="text"
@@ -59,9 +57,9 @@ const TextArea = () => {
           value={values.text}
           onChange={set("text")}
         />
-        <input type="submit" value="Submit" />
+        <input className="button" type="submit" value="Submit" />
       </form>
-    </>
+    </div>
   );
 };
 
