@@ -8,6 +8,7 @@ const TextArea = () => {
     title: "",
     text: "",
     linkedInUrl: "",
+    submssion: ""
   });
 
   const set = (name) => {
@@ -18,7 +19,7 @@ const TextArea = () => {
 
   return (
     <div>
-      <form action="/" className="card">
+      <form action="/" className="form">
         <h3 className="form">Make a request or offer</h3>
         <label htmlFor="title">Title:</label>
         <input
@@ -44,7 +45,7 @@ const TextArea = () => {
           value={values.linkedInUrl}
           onChange={set("linkedInUrl")}
         />
-        <label htmlFor="post">Offer or Request:</label>
+        <label htmlFor="submission">Offer or Request:</label>
         <textarea
           id="post"
           name="post"
@@ -57,6 +58,13 @@ const TextArea = () => {
           value={values.text}
           onChange={set("text")}
         />
+        <div onChange={set('submission')}>
+          <label htmlFor="submission">
+          <input type="radio" name="submission" value="offer" defaultChecked={true}/> Offer
+          <input type='radio' name='submission' value='request'/> Request
+          </label>
+        </div>
+
         <input className="button" type="submit" value="Submit" />
       </form>
     </div>
