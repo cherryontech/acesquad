@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Card = (props) => {
   const { id, title, linkedInUrl, text, submission, calendlyUrl } = props;
   return (
-    <div className="info" key={id}>
+    <div className="form" key={id}>
       <h2>
         {submission}: {title}
       </h2>
