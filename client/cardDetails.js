@@ -4,6 +4,7 @@ const json = [
     "id": 1,
     "title": "Resume Review",
     "linkedInUrl": "https://dequeuniversity.com/rules/axe/4.6/label?application%3Daxe-linter",
+    "calendlyUrl": "https://calendly.com/",
     "text": "Programmatically associate labels with all form controls. The recommended method for most circumstances is to use the label element and an explicit association using the for and id attributes. The examples here are ordered from the most common acceptable solution to the least common acceptable solution.",
     "submission": "offer"
     },
@@ -14,12 +15,14 @@ const json = [
     "linkedInUrl": "https://getemoji.com/",
     "text": "I love emojiiiii wheeee!",
     "submission": "request"
+    
     },
 
     {
     "id": 3,
     "title": "teach me to type",
     "linkedInUrl": "https://www.how-to-type.com/touch-typing-lessons/how-to-type-home-keys/",
+     "calendlyUrl": "https://calendly.com/",
     "text": "I need to type better!",
     "submission": "request"
     },
