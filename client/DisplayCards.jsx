@@ -1,9 +1,11 @@
 import json from "./cardDetails";
 import Card from "./Card";
+import { Link } from "react-router-dom";
 
 const DisplayCards = () => {
   return (
     <div>
+      <Link to={`/submit`} className="offer-request-button"> Create an offer or request </Link>
       {!json.length ? (
         <h1>Be the first to make an offer or request!</h1>
       ) : (
