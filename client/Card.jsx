@@ -1,17 +1,22 @@
 import { Link } from "react-router-dom";
 
-const Card = ({ id, title, linkedInUrl, text, submission }) => {
+const Card = (props) => {
+  const { id, title, linkedInUrl, text, submission, calendlyUrl } = props;
   return (
-    <Link to={`/`} className="card">
-      <div className="info">
-        <h2>
-          Offer{submission}:Title{title}
-        </h2>
-        <p>Text{text}</p>
-        <a href={linkedInUrl} />
-      </div>
-    </Link>
+    <div className="form" key={id}>
+      <h2>
+        {submission}: {title}
+      </h2>
+      <p>{text}</p>
+      <a href={linkedInUrl} target="_blank" rel="noreferrer noopener">
+        Contact via LinkedIn
+      </a>
+      {calendlyUrl ? (
+      <a href={calendlyUrl} target="_blank" rel="noreferrer noopener">
+        Schedule with Calendly
+      </a>) : null }
+    </div>
   );
 };
 
-export default Card; 
+export default Card;
