@@ -14,8 +14,7 @@ const App = () => {
           <Link to="/">Networking Marketplace</Link>
         </header>
         <Routes>
-          <Route path="/" element={<DisplayCards />} />
-          <Route path="/filter" element={<CardContainer />} />
+          <Route path="/" element={<CardContainer />} />
           <Route path="/submit" element={<TextArea />} />
         </Routes>
       </BrowserRouter>
