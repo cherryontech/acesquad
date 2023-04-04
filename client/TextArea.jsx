@@ -8,6 +8,7 @@ const TextArea = () => {
     title: "",
     text: "",
     linkedInUrl: "",
+    calendlyUrl: "",
     submssion: ""
   });
 
@@ -45,6 +46,18 @@ const TextArea = () => {
           value={values.linkedInUrl}
           onChange={set("linkedInUrl")}
         />
+        <label htmlFor="calendlyUrl">Calendly Link:</label>
+        <input
+          type="url"
+          id="calendlyUrl"
+          name="calendlyUrl"
+          maxLength="140"
+          placeholder="Calendly Link"
+          required
+          className="card"
+          value={values.calendlyUrl}
+          onChange={set("calendlyUrl")}
+        />
         <label htmlFor="submission">Offer or Request:</label>
         <textarea
           aria-label="Add details about your offer or request here"
@@ -59,10 +72,11 @@ const TextArea = () => {
           value={values.text}
           onChange={set("text")}
         />
-        <div onChange={set('submission')}>
+        <div onChange={set("submission")}>
           <label htmlFor="submission">
           <input aria-label="Offer" type="radio" name="submission" value="offer" defaultChecked={true}/> Offer
           <input aria-label="Request" type='radio' name='submission' value='request'/> Request
+
           </label>
         </div>
 
