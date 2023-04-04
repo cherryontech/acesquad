@@ -47,6 +47,7 @@ const TextArea = () => {
         />
         <label htmlFor="submission">Offer or Request:</label>
         <textarea
+          aria-label="Add details about your offer or request here"
           id="post"
           name="post"
           rows="4"
@@ -60,8 +61,8 @@ const TextArea = () => {
         />
         <div onChange={set('submission')}>
           <label htmlFor="submission">
-          <input type="radio" name="submission" value="offer" defaultChecked={true}/> Offer
-          <input type='radio' name='submission' value='request'/> Request
+          <input aria-label="Offer" type="radio" name="submission" value="offer" defaultChecked={true}/> Offer
+          <input aria-label="Request" type='radio' name='submission' value='request'/> Request
           </label>
         </div>
 
