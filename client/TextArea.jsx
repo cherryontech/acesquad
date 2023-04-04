@@ -20,7 +20,7 @@ const TextArea = () => {
   return (
     <div>
       <form action="/" className="form">
-        <h3 className="form">Make a request or offer</h3>
+        <h1 className="form">Make a request or offer</h1>
         <label htmlFor="title">Title:</label>
         <input
           type="text"
