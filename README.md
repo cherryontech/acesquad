@@ -13,7 +13,7 @@ Netlify Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/7213416
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This README is a work in progress :) 
+This README is a work in progress! :)
 
 ## PRODUCT OVERVIEW
 ### Our Product
