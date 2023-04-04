@@ -8,9 +8,11 @@ const Card = (props) => {
         {submission}: {title}
       </h2>
       <p>{text}</p>
+      {linkedInUrl ? (
       <a href={linkedInUrl} target="_blank" rel="noreferrer noopener">
         Contact via LinkedIn
-      </a>
+      </a>) : null }
+      <br/>
       {calendlyUrl ? (
       <a href={calendlyUrl} target="_blank" rel="noreferrer noopener">
         Schedule with Calendly
