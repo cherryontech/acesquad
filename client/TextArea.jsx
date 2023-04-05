@@ -27,7 +27,7 @@ const TextArea = () => {
           type="text"
           id="title"
           name="title"
-          maxLength="60"
+          maxLength="50"
           placeholder="Post Title"
           required
           className="card"
