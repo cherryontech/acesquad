@@ -75,9 +75,9 @@ const TextArea = () => {
         <div onChange={set("submission")}>
           <label htmlFor="submission">
           <input id="offer" type="radio" name="submission" value="offer" defaultChecked={true}/>
-          <label for="offer" aria-label="offer">offer</label>
+          <label htmlfor="offer" aria-label="offer">offer</label>
           <input id="request" type='radio' name='submission' value='request'/>
-          <label for="request" aria-label="request">request</label>
+          <label htmlfor="request" aria-label="request">request</label>
           </label>
         </div>
 
