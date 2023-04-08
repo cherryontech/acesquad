@@ -9,7 +9,7 @@ const TextArea = () => {
     text: "",
     linkedInUrl: "",
     calendlyUrl: "",
-    submssion: ""
+    submssion: "",
   });
 
   const set = (name) => {
@@ -19,10 +19,15 @@ const TextArea = () => {
   };
 
   return (
-    <div>
-      <form action="/" className="form">
-        <h1 className="form">Make a request or offer</h1>
-        <label htmlFor="title">Title:</label>
+    <div className="my-0 mx-auto w-11/12">
+      <form
+        action="/"
+        className="mb-10 flex flex-col items-center justify-center rounded-lg bg-gray-200 p-10 shadow-lg"
+      >
+        <h1 className="text-sans text-2xl">Make a request or offer:</h1>
+        <label className="m-1" htmlFor="title">
+          Title:
+        </label>
         <input
           type="text"
           id="title"
@@ -30,11 +35,13 @@ const TextArea = () => {
           maxLength="60"
           placeholder="Post Title"
           required
-          className="card"
           value={values.title}
           onChange={set("title")}
+          className="mb-3 block w-60"
         />
-        <label htmlFor="linkedInUrl">LinkedIn Profile:</label>
+        <label className="m-1" htmlFor="linkedInUrl">
+          LinkedIn Profile:
+        </label>
         <input
           type="url"
           id="linkedInUrl"
@@ -42,11 +49,13 @@ const TextArea = () => {
           maxLength="140"
           placeholder="LinkedIn profile"
           required
-          className="card"
+          className="mb-3 block w-60"
           value={values.linkedInUrl}
           onChange={set("linkedInUrl")}
         />
-        <label htmlFor="calendlyUrl">Calendly Link:</label>
+        <label className="m-1" htmlFor="calendlyUrl">
+          Calendly Link:
+        </label>
         <input
           type="url"
           id="calendlyUrl"
@@ -54,11 +63,13 @@ const TextArea = () => {
           maxLength="140"
           placeholder="Calendly Link"
           required
-          className="card"
+          className="mb-3 block w-60"
           value={values.calendlyUrl}
           onChange={set("calendlyUrl")}
         />
-        <label htmlFor="submission">Offer or Request:</label>
+        <label className="m-1" htmlFor="submission">
+          Offer or Request:
+        </label>
         <textarea
           aria-label="Add details about your offer or request here"
           id="post"
@@ -68,19 +79,37 @@ const TextArea = () => {
           maxLength="140"
           placeholder="Add your offer or request here"
           required
-          className="card"
+          className="mb-4 block w-60"
           value={values.text}
           onChange={set("text")}
         />
         <div onChange={set("submission")}>
-          <label htmlFor="submission">
-          <input aria-label="Offer" type="radio" name="submission" value="offer" defaultChecked={true}/> Offer
-          <input aria-label="Request" type='radio' name='submission' value='request'/> Request
-
+          <label className="mb-1" htmlFor="submission">
+            <input
+              aria-label="Offer"
+              type="radio"
+              name="submission"
+              value="offer"
+              defaultChecked={true}
+              className="m-2"
+            />{" "}
+            Offer
+            <input
+              aria-label="Request"
+              type="radio"
+              name="submission"
+              value="request"
+              className="m-2"
+            />{" "}
+            Request
           </label>
         </div>
 
-        <input className="button" type="submit" value="Submit" />
+        <input
+          className="over:opacity-50 rounded bg-orange-500 px-6 m-2 p-2 text-white "
+          type="submit"
+          value="Submit"
+        />
       </form>
     </div>
   );
