@@ -9,7 +9,7 @@ const TextArea = () => {
     text: "",
     linkedInUrl: "",
     calendlyUrl: "",
-    submssion: "",
+    submission: "",
   });
 
   const set = (name) => {
@@ -85,8 +85,8 @@ const TextArea = () => {
               name="submission"
               value="offer"
               defaultChecked={true}
+              onChange={set("submission")}
             />
-
             <label htmlFor="request" aria-label="request">
               Request
             </label>
@@ -95,11 +95,13 @@ const TextArea = () => {
               type="radio"
               name="submission"
               value="request"
+              onChange={set("submission")}
             />
           </div>
         </fieldset>
         <input className="button" type="submit" value="Submit" />
       </form>
+      {title.values}
     </div>
   );
 };
