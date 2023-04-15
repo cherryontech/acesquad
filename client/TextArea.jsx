@@ -9,7 +9,7 @@ const TextArea = () => {
     text: "",
     linkedInUrl: "",
     calendlyUrl: "",
-    submssion: ""
+    submssion: "",
   });
 
   const set = (name) => {
@@ -72,19 +72,32 @@ const TextArea = () => {
           value={values.text}
           onChange={set("text")}
         />
-        <div onChange={set("submission")}>
+        <fieldset>
+          <legend>I am making a(n)</legend>
           
-          <label htmlfor="offer" aria-label="offer">
-          <input id="offer" type="radio" name="submission" value="offer" defaultChecked={true}/>
-          offer
-          </label>
-          
-          <label htmlfor="request" aria-label="request">
-          <input id="request" type='radio' name='submission' value='request'/>
-            request
+          <div onChange={set("submission")}> 
+            <label htmlFor="offer" aria-label="offer">
+              Offer
             </label>
-        </div>
+            <input
+              id="offer"
+              type="radio"
+              name="submission"
+              value="offer"
+              defaultChecked={true}
+            />
 
+            <label htmlFor="request" aria-label="request">
+              Request
+            </label>
+            <input
+              id="request"
+              type="radio"
+              name="submission"
+              value="request"
+            />
+          </div>
+        </fieldset>
         <input className="button" type="submit" value="Submit" />
       </form>
     </div>
