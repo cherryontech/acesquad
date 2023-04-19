@@ -9,12 +9,12 @@ const App = () => {
   return (
     <div className="m-2 p-2">
       <BrowserRouter>
-        <header className="mb-5 w-full bg-green-500 p-7 text-center">
+        <header className="mb-5 w-full bg-green-500 p-7 text-center rounded">
           <Link
-            className="font-sans hover:text-gray-200 text-6xl text-white"
+            className="font-sans hover:text-slate-200 text-6xl text-white"
             to="/"
           >
-            Networking Marketplace
+            Nexus Network
           </Link>
         </header>
         <Routes>

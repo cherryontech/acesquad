@@ -22,7 +22,7 @@ const TextArea = () => {
     <div className="my-0 mx-auto w-11/12">
       <form
         action="/"
-        className="mb-10 flex flex-col items-center justify-center rounded-lg bg-gray-200 p-10 shadow-lg"
+        className="mb-10 flex flex-col items-center justify-center rounded-lg bg-slate-200 p-10 shadow-lg"
       >
         <h1 className="text-sans text-2xl">Make a request or offer:</h1>
         <label className="m-1" htmlFor="title">
