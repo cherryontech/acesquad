@@ -8,7 +8,7 @@ const DisplayCards = ({filter}) => {
   const filteredCards = json.filter((el) => el.submission === lowerFilter);
 
   return (
-      <div>
+      <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
       {(filter === "all") ? (json.map((submission) => {
           return (
             <Card
